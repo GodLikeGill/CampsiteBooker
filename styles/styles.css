@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 5vh;
+    padding-top: 12px;
+    text-align: center;
+    background-color: black;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    height: 95vh;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    background-image: url("assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+main h1 {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.card {
+    display: grid;
+    padding: 35px;
+    color: black;
+    column-gap: 20px;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+    grid-template-columns: 2fr 1fr 0fr;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+button {
+    border: none;
+    color: white;
+    font-size: medium;
+    margin-top: 10px;
+    border: 1px #a5a1a1 solid;
+    padding: 8px 30px 10px 30px;
+    background-color: #a5a1a1;
+}
+
+button:hover {
+    color: black;
+    border: 1px black solid;
+    background-color: white;
+}

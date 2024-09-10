@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campsite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/campsite.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">RESERVE A SITE</a></li>
+                <li><a href="campsite.html">RESOURCES</a></li>
+                <li><a href="campsite.html">DEALS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p class="headline underlined">1. CHOOSE A SITE</p>
+        <p class="headline">2. REVIEW AND PAY</p><br>
+        <div id="filters">
+            <label>Filter by equipment:</label>
+            <select id="equipment">
+                <option value="Show All">Show All</option>
+                <option value="Single Tent">Single Tent</option>
+                <option value="3 Tents">3 Tents</option>
+                <option value="Trailer up to 18ft">Trailer up to 18ft</option>
+            </select>
+            <label>Filter by available nights:</label>
+            <select id="nights">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div id="sites"></div>
+    </main>
+    <script type="text/javascript" src="js/campsite.js"></script>
+</body>
+</html>
